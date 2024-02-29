@@ -24,7 +24,7 @@ const FAQItem = ({ question, answer }) => {
           onClick={toggleAccordion}
         />
       </section>
-      <div className="articulo">
+      <div className="article">
         {isOpen && ( 
             <article>{answer}</article>
         )}
