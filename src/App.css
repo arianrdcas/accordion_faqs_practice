@@ -10,7 +10,7 @@
 
 .card {
   border-radius: 10px;
-  width: 500px;
+  width: 60vw;
   text-align: justify;
   padding: 20px;
   position: absolute;
@@ -44,19 +44,28 @@ p {
 section {
   text-align: left;
   margin-top: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
 
-.article{
+.article {
   margin-bottom: 40px;
   text-align: justify;
   color: rgb(139, 138, 138);
 }
 
-
 .iconplus {
   width: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 60vw;
+  }
+  .iconplus {
+    margin-left: 15px;
+  }
 }
