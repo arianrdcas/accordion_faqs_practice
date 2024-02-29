@@ -2,9 +2,7 @@
   margin: 0;
 }
 
-
-
-.background-imge{
+.background-imge {
   width: 100%;
   height: auto;
   display: block;
@@ -16,7 +14,7 @@
   text-align: justify;
   padding: 20px;
   position: absolute;
-  top: 60%; /* Centra verticalmente la tarjeta */
+  top: 40%; /* Centra verticalmente la tarjeta */
   left: 50%; /* Centra horizontalmente la tarjeta */
   transform: translate(
     -50%,
@@ -26,27 +24,43 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
 }
 
-.faqs{
-
+.faqs img,
+.faqs h1 {
+  display: inline-block;
+  vertical-align: middle; /* Para alinear verticalmente */
 }
 
-h1 {
-  margin-bottom: 30px;
+.star-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
 }
 
-.questions {
+p {
   font-weight: bold;
   text-align: justify;
 }
 
 section {
   text-align: left;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articulo{
+  margin-bottom: 40px;
+  text-align: justify;
+  color: rgb(139, 138, 138);
 }
 
 article {
-  text-align: justify;
-  color: rgb(139, 138, 138);
   
+  
+}
+
+.iconplus {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
